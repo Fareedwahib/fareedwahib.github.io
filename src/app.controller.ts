@@ -1,6 +1,7 @@
 import { Controller, Get, Render, Res } from '@nestjs/common';
 import { Response } from 'express';
 import { AppService } from './app.service';
+import { createParamDecorator, ExecutionContext } from '@nestjs/common';
 
 @Controller()
 export class AppController {
@@ -37,6 +38,7 @@ export class AppController {
       title: 'My Projects - Portfolio',
       // projects: portfolioData.projects,
       // name: portfolioData.name
+      ...portfolioData
     };
   }
 
@@ -49,6 +51,7 @@ export class AppController {
       title: 'Contact Me - Portfolio',
       // contact: portfolioData.contact,
       // name: portfolioData.name
+      ...portfolioData
     };
   }
 
@@ -63,3 +66,10 @@ export class AppController {
     return this.appService.getPortfolioData();
   }
 }
+// function Param(param: string) {
+//   return (target: Object, propertyKey: string | symbol, parameterIndex: number) => {
+//     const existingParameters: any[] = Reflect.getOwnMetadata('route-params', target, propertyKey) || [];
+//     existingParameters.push({ index: parameterIndex, param });
+//     Reflect.defineMetadata('route-params', existingParameters, target, propertyKey);
+//   };
+
