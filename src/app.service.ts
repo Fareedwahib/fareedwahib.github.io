@@ -31,17 +31,17 @@ export class AppService {
       experience: [
       {
         year: '2023 - Present',
-        position: 'Senior Backend Developer',
+        position: 'junior Backend Developer',
         description: 'Building scalable microservices and APIs using NestJS and TypeScript.',
       },
       {
         year: '2022 - 2023',
-        position: 'Backend Developer',
+        position: 'junior Backend Developer',
         description: 'Developed RESTful APIs and implemented database optimization strategies.',
       },
       {
         year: '2021 - 2022',
-        position: 'Junior Developer',
+        position: 'junior Developer',
         description: 'Started my journey in backend development with Node.js and Express.',
       },
       ],
