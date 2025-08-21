@@ -492,7 +492,7 @@
         }
 
         .contact-content {
-            display: grid;
+            display: inline;
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
         }
@@ -504,7 +504,7 @@
         }
 
         .contact-item {
-            display: flex;
+            display: inline-flex;
             align-items: center;
             gap: 1rem;
         }
