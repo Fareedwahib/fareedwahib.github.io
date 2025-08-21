@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Smith - NestJS Backend Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <i class="fab fa-js-square" style="color: #1cb8df;"></i>
+                <span>fareed.developer</span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Fareed Wahib</h1>
+                <p class="subtitle">NestJS Backend Developer</p>
+                <p>Crafting scalable, efficient, and robust backend solutions with modern TypeScript frameworks. Passionate about clean architecture and performance optimization.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-laptop-code"></i> View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about fade-in" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-img">
+                        <img src="images/profile.jpeg" alt="Fareed Wahib Profile Photo" class="profile-photo" style="width: 125%; max-width: 400px; aspect-ratio: 1/1.2; object-fit: cover; border-radius: 50% / 40%; display: block; margin: 0 auto;">
+
+                        <!-- <i class="fas fa-user"></i> -->
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I'm a passionate backend developer with over 5 years of experience building enterprise-level applications using NestJS and TypeScript. My expertise lies in creating scalable microservices, RESTful APIs, and robust database architectures that power modern web applications.</p>
+                    <p>I have a strong background in software engineering principles, with particular expertise in Domain-Driven Design, Test-Driven Development, and DevOps practices. I enjoy solving complex problems and optimizing system performance to deliver exceptional user experiences.</p>
+                    <p>Outside of coding, I enjoy playing basketball to stay active and unwind. Team sports help me build collaboration skills and maintain a healthy work-life balance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills fade-in" id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fab fa-node-js" style="color: #f7df1e;"></i> Backend Development</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">NestJS</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Express.js</span>
+                        <!-- <span class="skill-tag">Fastify</span>
+                        <span class="skill-tag">GraphQL</span> -->
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">WebSockets</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database" style="color: #176a3a;"></i> Databases</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">TypeORM</span>
+                        <span class="skill-tag">Prisma</span>
+                        <span class="skill-tag">Mongoose</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Elasticsearch</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> DevOps & Cloud</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">Nginx</span>
+                        <span class="skill-tag">Terraform</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Testing</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Jest</span>
+                        <span class="skill-tag">Supertest</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">Swagger</span>
+                        <span class="skill-tag">ESLint</span>
+                        <span class="skill-tag">Prettier</span>
+                        <span class="skill-tag">RabbitMQ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects fade-in" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div>
+                            <h3>E-Commerce Platform API</h3>
+                            <p>Scalable microservices architecture</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>Built a comprehensive e-commerce backend with microservices architecture supporting user management, product catalog, order processing, and payment integration. Implemented event-driven communication between services.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">NestJS</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">RabbitMQ</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-comments"></i>
+                        <div>
+                            <h3>Real-time Chat System</h3>
+                            <p>WebSocket-based messaging platform</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>Developed a real-time chat application with support for private messaging, group chats, file sharing, and message encryption. Implemented horizontal scaling with Redis adapter.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">NestJS</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">JWT</span>
+                            <span class="tech-tag">AWS S3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-chart-line"></i>
+                        <div>
+                            <h3>Analytics Dashboard API</h3>
+                            <p>High-performance data processing</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>Created a high-performance analytics API that processes millions of events daily. Implemented data aggregation, real-time metrics, and comprehensive reporting features with caching strategies.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">NestJS</span>
+                            <span class="tech-tag">GraphQL</span>
+                            <span class="tech-tag">ClickHouse</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">Kafka</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-file-alt"></i> Documentation
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience fade-in" id="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Senior Backend Developer</h3>
+                        <div class="company">TechCorp Solutions</div>
+                        <div class="duration">2022 - Present</div>
+                        <p>Leading backend development for enterprise applications using NestJS. Architected microservices handling 1M+ requests daily. Mentored junior developers and established coding standards. Reduced API response times by 40% through optimization.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Backend Developer</h3>
+                        <div class="company">StartupHub Inc.</div>
+                        <div class="duration">2020 - 2022</div>
+                        <p>Developed RESTful APIs and GraphQL endpoints using NestJS and TypeScript. Implemented authentication systems, database optimization, and automated testing. Collaborated with frontend teams to deliver seamless user experiences.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Developer</h3>
+                        <div class="company">WebDev Agency</div>
+                        <div class="duration">2019 - 2020</div>
+                        <p>Built full-stack applications using Node.js and modern frontend frameworks. Worked on various client projects including e-commerce platforms, content management systems, and business applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+     <!-- Contact Section -->
+    <section class="contact fade-in" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>fareedwahib29@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+(256) 789-4229673</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Kampala, CA</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/fareedwahib</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Stack Overflow"><i class="fab fa-stack-overflow"></i></a>
+            </div>
+            <p>&copy; 2025 fareeddeveloper. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

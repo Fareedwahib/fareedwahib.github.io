@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Aileron-Black
+font link: http://dotcolon.net/font/aileron/
+font author: dot colon
+font author site: http://dotcolon.net/
+Slogan Font: KaushanScript-Regular.ttf
+
+icon designer: SBTS
+icon designer link: /creator/sbts2018/
+        
+{"bg":"#437085","icon":"#ECEBE7","font":"#ECEBE7","slogan":"#fffffb"}
+      
